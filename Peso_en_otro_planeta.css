@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#container{
+    height: 80%;
+    width: 70%;
+    margin: 0px auto;
+    border: 2px solid rgba(7, 144, 69, 0.522);
+    border-radius: 3px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#info-peso{
+    height: 70.5%; 
+}
+
+
+
+header{
+    background-color: #82808433;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    border-bottom: 2px solid rgba(7, 144, 69, 0.522);
+    border-radius: 3px;
+}
+
+h2{
+    padding-top: 15px; 
+}
+
+h4{
+    padding: 8px; 
+}
+
+body{
+    background-color : black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    background-image: url('Fondo-astronauta.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+    text-align: center;
+}
+  
+#CajaTexto1{
+  border-radius: 8px;
+  text-align: center;
+  padding: 5px;
+}
+
+.boton {
+    background-color: #30a630;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 8px;
+    border-color: #036d05;
+    border-width: 2px;
+    border-style: solid;
+    padding: 10px 15px;
+    margin: 10px;
+  }
+
+.boton:hover {
+  background-color: #24c732;
+}
+
+strong1{
+  font-weight: bold;
+  color:lightgrey;
+  background-color: #246c39;
+  padding: 1.5px 3px;
+  border-radius: 3px;
+}
+strong2{
+  font-weight: bold;
+  color:lightgrey;
+  background-color: #af1920;
+  padding: 1.5px 3px;
+  border-radius: 3px;
+}
+strong3{
+  font-weight: bold;
+  color:lightgrey;
+  background-color: #9f590e;
+  padding: 1.5px 3px;
+  border-radius: 3px;
+}
+
+.linea:hover{
+  margin: 1px 3px;
+  background-color:rgb(108, 107, 61);
+  padding: 3.5px 4px;
+  border-radius: 4px;
+}
+
+footer{
+  background: #06c228cd;
+  color:white;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+}  
+
+.hija{
+    position: absolute;
+    top: 50%;
+}
+
+.iconos {
+    /* cambia estos dos valores para definir el tamaño de tu círculo */
+    height: 22px;
+    width: 22px;
+    /* los siguientes valores son independientes del tamaño del círculo */
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+}
